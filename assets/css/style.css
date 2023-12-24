@@ -68,12 +68,19 @@ nav{
 #nav-toggle:checked~nav{
     display:block;
 }
+#nav-toggle{
+    display:none;
+}
+.nav-toggle-label{
+    font-size:2rem;
+}
 /*Main Section*/
 
 main{
     background-color:aquamarine;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
+    margin-top:100px;
 }
 
 /*Footer*/
