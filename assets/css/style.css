@@ -80,7 +80,7 @@ main{
     background-color:aquamarine;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
-    margin-top:100px;
+    margin-top:50px;
 }
 
 /*Footer*/
@@ -88,9 +88,44 @@ main{
 footer{
     background-color:orange;
 }
+
+/*Make website responsive*/
 @media only screen and(min-width:280px) {
     #logo{
         font-size:xx-small;
     }
+    
+}
+@media only screen and(min-width:786px){
+
+/*Header*/
+nav{
+    display:block;
+    position:relative;
+    box-shadow:none;
+    width:fit-content;
+
+}
+
+#menu{
+    display:flex;
+}
+menu>li{
+    padding-left:1rem;
+}
+
+.nav-toggle-label{
+    display:none;
+}
+#logo{
+    font-size:280%;
+    line-height:75px;
+    margin:0 0.5rem;
+}
+main{
+    margin-top:80px;
+}
+}
+@media only screen and(min-width:px){
     
 }
