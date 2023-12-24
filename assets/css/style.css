@@ -64,6 +64,9 @@ nav{
     top:100%;
 
 }
+.active{
+    color:#ff0000;
+}
 /*nav-toggle*/
 #nav-toggle:checked~nav{
     display:block;
@@ -80,7 +83,7 @@ main{
     background-color:aquamarine;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
-    margin-top:50px;
+    margin-top:47px;
 }
 
 /*Footer*/
@@ -96,6 +99,8 @@ footer{
     }
     
 }
+
+/*Responsive to tablet*/
 @media only screen and(min-width:786px){
 
 /*Header*/
@@ -126,6 +131,18 @@ main{
     margin-top:80px;
 }
 }
-@media only screen and(min-width:px){
+
+/*Responsive to desktop*/
+
+@media only screen and(min-width:922px){
+
+    #menu a:hover{
+
+        color:#ff0000;
+
+
+    }
+
+
     
 }
