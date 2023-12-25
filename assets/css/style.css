@@ -92,7 +92,7 @@ nav {
 /*Main Section*/
 
 main {
-    background-color: aquamarine;
+    background-color:beige;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
     margin-top: 44px;
@@ -133,9 +133,7 @@ footer h4{
         font-size: 150%;
         font-weight:bold;
     }
-    header img{
-        size-adjust: ;
-    }
+   
 
 }
 
