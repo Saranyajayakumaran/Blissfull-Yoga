@@ -22,6 +22,7 @@ body {
 /*Header*/
 header {
 
+    
     background-color: beige;
     padding: 0 1rem;
     position: fixed;
@@ -94,6 +95,7 @@ nav {
 /*Main Section*/
 
 main {
+    
     background-color: beige;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
@@ -112,6 +114,11 @@ main {
     display:block;
     margin-left:auto;
     margin-right:auto;
+    position:center;
+    size:cover;
+    width:100%
+  
+
 
 }
 #about h3{
@@ -178,7 +185,7 @@ footer h4 {
 
     main {
         margin-top: 42px;
-    }
+    }   
 
 }
 
@@ -221,6 +228,14 @@ footer h4 {
     main {
         margin-top: 80px;
     }
+    #about img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        position:center;
+        size:cover;
+        width 100%;
+      
 }
 
 /*Responsive to desktop*/
@@ -233,7 +248,14 @@ footer h4 {
 
 
     }
-
-
+    #about img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        position:center;
+        size:100%;
+        width:100%
+      
+   
 
 }
