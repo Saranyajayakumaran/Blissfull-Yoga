@@ -188,6 +188,23 @@ footer h4 {
     }   
 
 }
+#about h3{
+    font-size:200%;
+    color:rgb(63, 27, 2);
+}
+#benefits h2{
+    font-size:200%;
+    color:rgb(63, 27, 2);
+}
+#contact h3{
+    font-size: 200%;
+    color:rgb(63, 27, 2);
+}
+#benefits h3{
+    font-size:200%;
+    color:rgb(63, 27, 2);
+}
+
 
 /*Responsive to tablet*/
 @media screen and (min-width:786px) {
