@@ -73,7 +73,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    height: ;
+    
 
 }
 /*nav-toggle*/
@@ -95,8 +95,9 @@ main {
     background-color:beige;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
-    margin-top: 44px;
+    margin-top: 43px;
 }
+
 
 /*Footer*/
 
@@ -133,7 +134,9 @@ footer h4{
         font-size: 150%;
         font-weight:bold;
     }
-   
+    main{
+        margin-top:42px;
+    }
 
 }
 
