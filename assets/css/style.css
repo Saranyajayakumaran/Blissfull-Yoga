@@ -1,7 +1,7 @@
 /*Google fonts import*/
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@0,600;1,600&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@0,600;1,600&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,900&family=Varela+Round&display=swap');
 
 
 * {
@@ -24,7 +24,7 @@ header {
 
     background-color: beige;
     padding: 0 1rem;
-    position:fixed;
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -35,13 +35,13 @@ header {
 }
 
 h1 {
-    font-family:'PT Sans', Times, serif,sans-serif;
+    font-family: 'PT Sans', Times, serif, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(71, 29, 5);
     text-shadow: 5px;
-    font-weight:900;
-    
+    font-weight: 900;
+
 
 }
 
@@ -59,6 +59,7 @@ nav ul li a {
 #menu>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid #0e0101;
 }
@@ -73,9 +74,10 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    
+
 
 }
+
 /*nav-toggle*/
 #nav-toggle:checked~nav {
     display: block;
@@ -92,25 +94,44 @@ nav {
 /*Main Section*/
 
 main {
-    background-color:beige;
+    background-color: beige;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
     margin-top: 43px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    
 }
+#about img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+
+
+
+
+
 
 
 /*Footer*/
 
 footer {
     background-color: beige;
-    
-    
+
+
 }
 
-footer h4{
-    font-family:'Caveat', sans-serif;
+footer h4 {
+    font-family: 'Caveat', sans-serif;
     font-size: 200%;
-    color:rgb(71, 29, 5);
+    color: rgb(71, 29, 5);
     text-transform: capitalize;
 }
 
@@ -128,14 +149,16 @@ footer h4{
     padding: 5%;
     color: #3a3a3a
 }
+
 /*Make website responsive*/
 @media screen and (min-width:280px) {
     #logo {
         font-size: 150%;
-        font-weight:bold;
+        font-weight: bold;
     }
-    main{
-        margin-top:42px;
+
+    main {
+        margin-top: 42px;
     }
 
 }
@@ -144,10 +167,11 @@ footer h4{
 @media screen and (min-width:786px) {
 
     /*Header*/
-    #logo{
-        font-size:200%;
-        font-weight:bold;
+    #logo {
+        font-size: 200%;
+        font-weight: bold;
     }
+
     nav {
         display: block;
         position: relative;
