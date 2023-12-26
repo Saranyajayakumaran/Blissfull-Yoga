@@ -100,16 +100,35 @@ main {
     margin-top: 43px;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
     color: #333;
     
 }
+
+
+
 #about img{
     display:block;
     margin-left:auto;
     margin-right:auto;
 
+}
+#about h3{
+    font-size:250%;
+    color:rgb(63, 27, 2);
+}
+#benefits h2{
+    font-size:250%;
+    color:rgb(63, 27, 2);
+}
+#contact h3{
+    font-size: 250%;
+    color:rgb(63, 27, 2);
+}
+#benefits h3{
+    font-size:100%;
+    color:rgb(63, 27, 2);
 }
 
 
