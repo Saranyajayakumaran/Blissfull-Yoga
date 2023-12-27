@@ -100,15 +100,23 @@ main {
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
     margin-top: 43px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'cursive', sans-serif;
     line-height: 1.6;
     margin: 0px auto;
     padding: 0px;
     color: #333;
+    background-position: fixed;
 
 }
+.index{
+    display: block;
+    margin-left: -10;
+    margin-right: 10;
+    position: center;
+    size: cover;
+    width: 100%;
 
-
+}
 
 #about img {
     display: block;
@@ -143,6 +151,7 @@ main {
 #benefits p,
 #contact p {
     font-size: large;
+    font-family: cursive ,sans-serif;
 }
 
 /*event page*/
@@ -219,7 +228,7 @@ main {
 
 }
 
-#note {
+/*#note {
     width: 500px;
     height: 70px;
     padding: 20px;
@@ -233,7 +242,7 @@ main {
     font-family: cursive, sans-serif;
     color: rgb(247, 247, 247);
     font-size: medium;
-}
+}*/
 
 /*Footer*/
 
@@ -275,6 +284,10 @@ footer h4 {
     main {
         margin-top: 42px;
     }
+   .index{
+    padding:10px;
+
+   }
 
     #event h2 {
         font-size: 120%;
@@ -340,22 +353,23 @@ footer h4 {
 
 
 #about h3 {
-    font-size: 200%;
+    font-size: 150%;
     color: rgb(63, 27, 2);
+    
 }
 
 #benefits h2 {
-    font-size: 200%;
+    font-size: 150%;
     color: rgb(63, 27, 2);
 }
 
 #contact h3 {
-    font-size: 200%;
+    font-size: 150%;
     color: rgb(63, 27, 2);
 }
 
 #benefits h3 {
-    font-size: 200%;
+    font-size: 150%;
     color: rgb(63, 27, 2);
 }
 }
