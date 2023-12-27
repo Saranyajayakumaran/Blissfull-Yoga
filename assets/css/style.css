@@ -157,13 +157,13 @@ main {
 
 #event h2 {
     font-weight: 600;
-    font-family: cursive,sans-serif;
+    font-family: cursive, sans-serif;
     color: rgb(247, 247, 247);
-    padding:20px;
-    margin:30px;
+    padding: 20px;
+    margin: 30px;
     width: 600px;
     height: 70px;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     align-content: center;
 
 }
@@ -171,8 +171,8 @@ main {
 #event-time {
     width: 600px;
     height: 300px;
-    padding:20px;
-    margin-left:30px;
+    padding: 20px;
+    margin-left: 30px;
     background-color: rgba(0, 0, 0, 0.5);
     align-content: center;
 }
@@ -189,43 +189,46 @@ main {
     list-style-type: none;
     text-transform: capitalize;
     font-weight: 300;
-    font-family: cursive ,sans-serif;
+    font-family: cursive, sans-serif;
     font-size: 150%;
     justify-content: center;
-    
+
 
 }
-#venue{
+
+#venue {
     width: 300px;
     height: 150px;
-    padding:20px;
-    margin:30px;
+    padding: 20px;
+    margin: 30px;
     background-color: rgba(0, 0, 0, 0.5);
     align-content: center;
 
 }
-#venue li{
+
+#venue li {
 
     font-weight: 300;
-    font-family: cursive,sans-serif;
+    font-family: cursive, sans-serif;
     color: rgb(247, 247, 247);
     list-style-type: none;
-    padding:3px;
-    font-size:large;
+    padding: 3px;
+    font-size: large;
 
 }
 
-#note{
+#note {
     width: 500px;
     height: 70px;
-    padding:20px;
-    margin:30px;
+    padding: 20px;
+    margin: 30px;
     background-color: rgba(0, 0, 0, 0.5);
     align-content: center;
 
 }
-#note p{
-    font-family: cursive,sans-serif;
+
+#note p {
+    font-family: cursive, sans-serif;
     color: rgb(247, 247, 247);
     font-size: medium;
 }
@@ -234,9 +237,9 @@ main {
 
 footer {
     background-color: beige;
+    position: fixed;
+      }
 
-
-}
 
 footer h4 {
     font-family: 'Caveat', sans-serif;
@@ -270,6 +273,91 @@ footer h4 {
     main {
         margin-top: 42px;
     }
+
+    #event h2 {
+        font-size: small;
+        font-weight: 200;
+        font-family: cursive, sans-serif;
+        color: rgb(247, 247, 247);
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 100px;
+        margin-bottom: 40px;
+        width: 240px;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-content: center;
+        text-align: center;
+
+    }
+
+    #event-time {
+        width: 240px;
+        height: 300px;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-content: center;
+    }
+
+    #event-time li {
+        color: #ffffff;
+        list-style-type: none;
+        text-transform: capitalize;
+        font-weight: 550;
+        font-family: cursive, sans-serif;
+        font-size: 70%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #venue {
+        width: 240px;
+        height: 150px;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-content: center;
+        text-align: center;
+    
+    }
+    
+    #venue li {
+    
+        font-weight: 300;
+        font-family: cursive, sans-serif;
+        color: rgb(247, 247, 247);
+        list-style-type: none;
+        padding: 3px;
+        font-size: small;
+    
+    }
+    #note {
+        width: 240px;
+        height: 50px;
+        padding-left: 20px;
+        padding-right:20px;
+        margin: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-content: center;
+    
+    }
+    
+    #note p {
+        font-family: cursive, sans-serif;
+        color: rgb(247, 247, 247);
+        font-size: small;
+    }
+    footer {
+        background-color: beige;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+          }
 
 }
 
