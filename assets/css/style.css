@@ -280,8 +280,8 @@ footer h4 {
         font-size: 120%;
         font-weight: 200;
         padding: 25px;
-        margin-left: 0px;
-        margin-right: 100px;
+        margin-left: -10px;
+        margin-right: px;
         margin-bottom: 40px;
         width: 240px;
         height: 140px;
@@ -296,7 +296,7 @@ footer h4 {
         width: 240px;
         height: 500px;
         padding: 15px;
-        margin-left: 0px;
+        margin-left: -10px;
         margin-right: 20px;
         align-content: center;
     }
@@ -313,7 +313,7 @@ footer h4 {
         width: 240px;
         height: 200px;
         padding: 20px;
-        margin-left: 0px;
+        margin-left: -10px;
         margin-right: 30px;
         margin-top:40px;
         align-content: center;
