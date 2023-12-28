@@ -22,7 +22,6 @@ body {
 /*Header*/
 header {
 
-
     background-color: beige;
     padding: 0 1rem;
     position: fixed;
@@ -247,6 +246,27 @@ main {
     color: rgb(247, 247, 247);
     font-size: medium;
 }*/
+
+/*Signup page*/
+.background{
+    background-image: url("../images/sign-up-page.webp");
+    background-size: cover;
+    background-position: 50%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+.registration-form{
+    display:block;
+    width: 500px;
+    height: 70px;
+    padding: 20px;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items:center
+
+}
+
+
 
 /*Footer*/
 
