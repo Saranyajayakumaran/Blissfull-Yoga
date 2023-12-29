@@ -255,15 +255,56 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-.registration-form{
+.register-form{
     display:block;
-    width: 500px;
-    height: 70px;
+    width: 225px;
+    height: 570px;
     padding: 20px;
-    margin: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    align-items:center
+    margin: 0px;
+    margin-top:30px;
+    background-color: rgba(218, 144, 144, 0.8);
+    align-items:center;
+    margin-bottom:10px;
+    color:#0e0101;
 
+}
+.input {
+    background: transparent;
+    color: #000000;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+#drop-down{
+    background: transparent;
+    color: #080000;
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left:-10px;
+    border-radius: 2px;
+    padding: 5px;
+
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    font-size: 100%;
+    text-transform: uppercase;
+    background-color: #7c554e;
+    color: #0a0303;
+    font-weight: 300;
 }
 
 

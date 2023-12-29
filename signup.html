@@ -57,15 +57,32 @@
                 <h2>Let's Experience yoga together!</h2>
 
                 <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" required> <br>
+                <input id="fname" name="first_name" type="text" class="input" required> <br>
                 <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" required> <br>
+                <input id="lname" name="last_name" type="text" class="input" required> <br>
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" required><br>
+                <input type="email" id="email" name="email_address" class="input" required><br>
+
+                <div class="radio-buttons">
                 <label for="male">Male</label>
                 <input type="radio" id="male" name="gender" value="male" required> <br>
                 <label for="female">Female</label>
                 <input type="radio" id="female" name="gender" value="female" required><br>
+                </div>
+
+                <div id="drop-down">
+                  <label for="category">Choose a Category:</label>
+
+                  <select name="category" id="category">
+              
+                      <option value="women">Women yoga</option>
+                      <option value="kids1">Kids yoga(3-6)</option>
+                      <option value="Old">Old Age Yoga</option>
+                      <option value="Kids2">kids yoga(6-14)</option>
+                      <option value="Pregnancy">Pregnancy yoga</option>
+                      <option value="Group">Group yoga</option>
+                  </select> <br>
+                  </div>
 
             
 
