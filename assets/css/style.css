@@ -101,7 +101,7 @@ main {
     margin-top: 43px;
     margin-bottom:65px;
     font-family: 'cursive', sans-serif;
-    line-height: 2.0;
+    line-height: 1.7;
     /*margin: 0px auto;*/
     padding: 0px;
     color: #333;
@@ -115,6 +115,7 @@ main {
     position: center;
     size: cover;
     width: 100%;
+    line-height: 2.0;
 
 }
 
@@ -203,6 +204,7 @@ main {
     font-family: cursive, sans-serif;
     font-size: 150%;
     justify-content: center;
+ 
 
 
 }
