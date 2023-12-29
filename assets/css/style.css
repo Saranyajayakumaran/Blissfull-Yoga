@@ -297,6 +297,7 @@ main {
 
 .join-button {
     margin-top: 20px;
+    margin-left:-5px;
     padding: 15px 32px;
     font-size: 100%;
     text-transform: uppercase;
@@ -380,7 +381,7 @@ footer {
 
     #event-time {
         width: 240px;
-        height: 500px;
+        height: 530px;
         padding: 15px;
         margin-left: -10px;
         margin-right: 20px;
