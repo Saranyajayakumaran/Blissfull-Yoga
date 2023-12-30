@@ -248,9 +248,9 @@ main {
 
 /*Signup page*/
 .background{
-    background-image: url("../images/sign-up-page.webp");
+    background-image: url("../images/signup-page.webp");
     background-size: cover;
-    background-position: 50%;
+    background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
