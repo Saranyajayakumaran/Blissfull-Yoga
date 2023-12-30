@@ -39,7 +39,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(71, 29, 5);
-    text-shadow: 5px;
     font-weight: 900;
 
 
@@ -70,7 +69,7 @@ nav {
     background-color: beige;
     width: 100%;
     left: 0;
-    padding: 0, 1rem;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -110,10 +109,8 @@ main {
 
 .index{
     display: block;
-    margin-left: -10;
-    margin-right: 10;
-    position: center;
-    size: cover;
+    margin-left: -10px;
+    margin-right: 10px;
     width: 100%;
     line-height: 2.0;
 
@@ -123,8 +120,6 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: center;
-    size: cover;
     width: 100%;
 }
 
@@ -492,8 +487,6 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        position: center;
-        size: cover;
         width:100%;
 
     }
@@ -601,8 +594,6 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        position: center;
-        size: 100%;
         width: 100%
     }
 
