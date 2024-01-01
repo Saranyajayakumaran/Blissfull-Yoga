@@ -2,7 +2,7 @@
 This website aims to provide a platform for yoga enthusiasts to explore and practice yoga at their own pace. Whether you're a beginner or an experienced yogi, our website offers live events to experience the yoga .Dive into the transformative world of yoga, where mind, body, and soul harmonize. 
 
 
-![Responsive image](assets\images\screenshot-responsive.webp)
+![Responsive image](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-responsive.webp)
 
 ## Features
 
@@ -68,7 +68,7 @@ Fixed bugs
 - Accessibility
     -I confirmed that th ecolor and fonts chosen are easy to read and accessible by renning it through lighthouse in devtools.
 
-    ![lighthouse report](assets\images\screenshot-report.webp)
+    ![lighthouse report](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-report.webp)
 
 Unfixed Bugs
     - No unfixed bugs.
