@@ -11,7 +11,7 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
     - The heading contain a logo which denotes the yoga posture.
     - The navigation links Home, Event and Sign up which link to other pages of the website.
     
-![Alt text](assets\images\screenshot-navigation.webp)
+![Alt text](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-navigation.webp)
 ---
 - Home page
 
@@ -27,7 +27,7 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 - Event page
     - The event page is created with a background image and informations of the event organised to explore the yoga for free of cost. It also contains the types of yoga organised ,time of each event and place of the event.  
 
-![Event page screen shot](<assets\images\screenshot event page.webp>)
+![Event page screen shot](<https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot event page.webp>)
 
 
 - Sign Up page
@@ -39,7 +39,7 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 
 - Social Media links
     - The social media links of the Happy yoga club is given un the footer section of all the pages. 
-    ![Social media link/footer](assets\images\screenshot-footer.webp)
+    ![Social media link/footer](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-footer.webp)
 
 
 
