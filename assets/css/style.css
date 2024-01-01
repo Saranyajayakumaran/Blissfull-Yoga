@@ -95,24 +95,25 @@ nav {
 main {
 
     background-color: beige;
+    width:100%;
     /*Make the main section to take up the space to push the footer bottom of the page*/
     flex: 1 0 auto;
     margin-top: 43px;
     margin-bottom:65px;
+    margin-left:-10px;
     font-family: 'cursive', sans-serif;
     line-height: 1.6;
     /*margin: 0px auto;*/
-    padding: 0px;
+    padding: 20px;
     color: #333;
 
 }
 
 .index{
     display: block;
-    margin-left: -10px;
-    margin-right: 10px;
-    width: 100%;
+    width: 102%;
     line-height: 2.0;
+    
 
 }
 
@@ -121,6 +122,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    padding:25px;
 }
 
 #about h3 {
@@ -296,8 +298,8 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     text-transform: uppercase;
-    background-color: #7c554e;
-    color: #0a0303;
+    background-color: #000000;
+    color: #ffffff;
     font-weight: 300;
 }
 /*confirmation page*/
@@ -355,7 +357,8 @@ footer {
         margin-top: 42px;
     }
    .index{
-    padding:10px;
+        padding:20px;
+        width:104%;
 
    }
 
