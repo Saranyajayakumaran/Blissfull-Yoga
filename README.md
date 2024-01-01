@@ -53,11 +53,12 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 
 ## Bugs
 Solved bugs
--when  i run the index page, the horizontal line in the navigatio bar when selecting the page was not appear. I discover that is because of typo in class active. After changed, it works.
+- When  i run the index page, the horizontal line in the navigatio bar when selecting the page was not appear. I discover that is because of typo in class active. After changed, it works.
 - When i run the project after deployment my background images were not displayed. I found that is because of the relative path of the image and i have changed it, then it works.
  background: url("../images/Event-PAGE-2.webp")
 - Remove assets and replace with .. resolved the error.
 ## Validator Testing
+Fixed bugs
 - HTML
     - Missed some end tag when passing through the official W3C validator
     - Resolved it and again tested : No error found.
@@ -67,14 +68,14 @@ Solved bugs
 - Accessibility
     -I confirmed that th ecolor and fonts chosen are easy to read and accessible by renning it through lighthouse in devtools.
 
-![lighthouse report](assets\images\screenshot-report.webp)
+    ![lighthouse report](assets\images\screenshot-report.webp)
 
 Unfixed Bugs
     - No unfixed bugs.
 
 
 ## Deployment
-    - The site was deployed to GitHub pages. The steps to deploy ar as follows:
+    - The site was deployed to GitHub pages. The steps to deploy are as follows:
         - In the GitHub repository,navigate to the settings tab
         - Select the Pages from Code and automation
         - Then select the give the correct repository name ,default branch to main.
