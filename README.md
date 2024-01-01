@@ -2,7 +2,7 @@
 This website aims to provide a platform for yoga enthusiasts to explore and practice yoga at their own pace. Whether you're a beginner or an experienced yogi, our website offers live events to experience the yoga .Dive into the transformative world of yoga, where mind, body, and soul harmonize. 
 
 
-![Alt text](assets\images\responsive.jpg)
+![Responsive image](assets\images\screenshot-responsive.webp)
 
 ## Features
 
@@ -11,7 +11,7 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
     - The heading contain a logo which denotes the yoga posture.
     - The navigation links Home, Event and Sign up which link to other pages of the website.
     
-![Alt text](navigation.png)
+![Alt text](assets\images\screenshot-navigation.webp)
 ---
 - Home page
 
@@ -26,7 +26,8 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 
 - Event page
     - The event page is created with a background image and informations of the event organised to explore the yoga for free of cost. It also contains the types of yoga organised ,time of each event and place of the event.  
-![Alt text](<event page.png>)
+
+![Event page screen shot](<assets\images\screenshot event page.webp>)
 
 
 - Sign Up page
@@ -38,7 +39,7 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 
 - Social Media links
     - The social media links of the Happy yoga club is given un the footer section of all the pages. 
-    ![Alt text](footer.png)
+    ![Social media link/footer](assets\images\screenshot-footer.webp)
 
 
 
@@ -46,24 +47,44 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 - I tested that this website is working in different browsers: Chrome, Firefox ,Safari.
 - I confirmed that the project is responsive,looks good and functions on all standard screen size using the devtools device toolbar.
 - I confirmed that the Navigation, Home page, Event page,Sign up and footer section are all readable and easy to understand.
--  I have confirmed that the form works: require entries in the field, will only accept an email field,and the submit btoon works.
+- I have confirmed that the form works: require entries in the field, will only accept an email field,and the submit btoon works.
 
 
 
 ## Bugs
-- When i run the project after deployment my background images were not displayed.  found that is because of the relative path of the image and i have changed it. then it works.
-
-
-
-
+Solved bugs
+-when  i run the index page, the horizontal line in the navigatio bar when selecting the page was not appear. I discover that is because of typo in class active. After changed, it works.
+- When i run the project after deployment my background images were not displayed. I found that is because of the relative path of the image and i have changed it, then it works.
+ background: url("../images/Event-PAGE-2.webp")
+- Remove assets and replace with .. resolved the error.
 ## Validator Testing
+- HTML
+    - Missed some end tag when passing through the official W3C validator
+    - Resolved it and again tested : No error found.
+- CSS
+    - Missed some semicolon and pixel.
+    -Resolved it and gain tested : No error found.
+- Accessibility
+    -I confirmed that th ecolor and fonts chosen are easy to read and accessible by renning it through lighthouse in devtools.
 
+![lighthouse report](assets\images\screenshot-report.webp)
 
 Unfixed Bugs
+    - No unfixed bugs.
 
 
 ## Deployment
-
+    - The site was deployed to GitHub pages. The steps to deploy ar as follows:
+        - In the GitHub repository,navigate to the settings tab
+        - Select the Pages from Code and automation
+        - Then select the give the correct repository name ,default branch to main.
+        - The page provide the link to complete website.
 
 ## Credits
+    - Content
+        - The code to make the navigation section and social media section was taken from the Love Running project.
+
+    - Media
+        - The images in the header was taken from pixabay.
+    
 
