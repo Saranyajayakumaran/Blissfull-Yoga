@@ -9,7 +9,7 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 - Navigation
     - The navigation at the top of the page shows name of the club and other navigation links are at the right side corner of the page.
     - The heading contain a logo which denotes the yoga posture.
-    - The navigation links Home, Event and Sign up which naviagte to other pages of the website.
+    - The navigation links Home, Event and Sign up which navigate to other pages of the website.
     
 ![Navigation bar of the website](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-navigation.webp)
 ---
@@ -35,12 +35,15 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
     - The sign up page is created for the registration purpose. It hepls the user to register with their details for the event.
     - The details are first name, last name , age,Email, gender, category and submit button . Wen the user filled all the field in required format and click submit button then the confirmation button message will be appeared in confirmation page.
 
+   ![Signup page of the website]( https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-signup.webp)
+
 - Confirmation page
     - The confirmation page is created to confirm the registration of the user that they successfully registered for the Event.
 
 
 - Social Media links
     - The social media links Facebook, Instagram ,youtube and twitter of the Happy yoga club is given in the footer section of all the pages. 
+   
     ![Social media link/footer](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-footer.webp)
 
 
@@ -71,7 +74,7 @@ Fixed bugs
     - Missed some semicolon and pixel.
     - Resolved it and gain tested : No error found.
 - Accessibility
-    -I confirmed that the color and fonts choosen are easy to read and accessible by running it through lighthouse in devtools.
+    - I confirmed that the color and fonts choosen are easy to read and accessible by running it through lighthouse in devtools.
 
     ![lighthouse report](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-report.webp)
 
@@ -80,17 +83,25 @@ Unfixed Bugs
 
 
 ## Deployment
-    - The site was deployed to GitHub pages. The steps to deploy are as follows:
-        - In the GitHub repository,navigate to the settings tab
-        - Select the Pages from Code and automation
+ - Remote server
+
+    The site was deployed to GitHub pages. The steps to deploy are as follows:
+        - In the GitHub repository,navigate to the settings tab.
+        - Select the Pages from Code and automation.
         - Then give the correct repository name and default branch to main.
-        - The page provide the link to complete website.
+        - The page provides the link to complete website.
+- Local server
+        - In the GitHub repository click code tab and copy the URL of repository.
+        - Open command prompt in the local computer and type git clone and paste the URL of GitHub repository.
+         "git clone https://github.com/Saranyajayakumaran/Happy-Yoga.git"
+        - The repository will be deployed in local server.
+        - We can check the directory using "dir" command in command prompt. 
 
 ## Credits
     - Content
         - The code to make the navigation section and social media section was taken from the Love Running project.
 
     - Media
-        - The images in the header was taken from pixabay.
+        - The images in the header was taken from pixabay .
     
 
