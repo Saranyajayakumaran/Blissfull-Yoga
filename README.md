@@ -54,6 +54,18 @@ This website aims to provide a platform for yoga enthusiasts to explore and prac
 - I confirmed that the Navigation, Home page, Event page,Sign up and footer section are all readable and easy to understand.
 - I have confirmed that the form works: require entries in the field, will only accept an email field,and the submit button works.
 
+## Functional Testing
+
+
+| Action      | Expected result  | Pass/Fail     |
+|------------|------|----------------|
+| Enter Home page URL  | Open the home page   | Pass|
+| Click the Event page menu | Display Event page   | Pass|
+| Click the Sign up page menu  | Display sign up page  | Pass |
+| Leave the form empty and click lets Explore|Pop up "please fill the details"|Pass|
+|Fill the details and click lets Explore|Display confirmation page|Pass|
+|Click Home link in confirmation page|Display Home page|Pass|
+
 
 
 ## Bugs
