@@ -2,7 +2,7 @@
 This website aims to provide a platform for yoga enthusiasts to explore and practice yoga at their own pace. Whether you're a beginner or an experienced yogi, our website offers live events to experience the yoga .Dive into the transformative world of yoga, where mind, body, and soul harmonize. 
 
 
-![Responsive images of the website](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-responsive%20.webp)
+![Responsive images of the website](https://raw.githubusercontent.com/Saranyajayakumaran/Happy-Yoga/main/assets/images/screenshot-responsive-n%20.webp)
 
 ## Features
 
