@@ -2,140 +2,123 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Meta tags for search engine-->
+  <!--Meta tags for search engine-->
 
-    <meta name="description" content="Happy Yoga. club for yoga lovers in Frankfurt. women yoga,kids yoga, pregnancy yoga, old age yoga, group yoga " >
-    <meta name="keywords" content=" yoga,yoga fo kids, women yoga, germany,frankfurt ,old age yoga ,yoga event ,excercise .">
+  <meta name="description"
+    content="Happy Yoga. club for yoga lovers in Frankfurt. women yoga,kids yoga, pregnancy yoga, old age yoga, group yoga ">
+  <meta name="keywords"
+    content=" yoga,yoga fo kids, women yoga, germany,frankfurt ,old age yoga ,yoga event ,excercise .">
 
-    <!--Title-->
+  <!--Title-->
 
-    <title>Happy Yoga</title>
+  <title>Happy Yoga</title>
 
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-    <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <!--Header-->
-    <header>
-        
-           <h1 id="logo">HAPPY <img src="assets/favicon/favicon-32x32.png" alt="LOGO PICTURE"> YOGA</h1>
-           <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
+  <!--Header-->
+  <header>
+    <a href="index.html">
+      <h1 id="logo">HAPPY <img src="assets/favicon/favicon-32x32.png" alt="LOGO PICTURE"> YOGA</h1>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul id="menu">
 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="event.html">Event</a></li>
-                <li><a href="signup.html" class="active">Signup</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="event.html">Event</a></li>
+        <li><a href="signup.html" class="active">Signup</a></li>
 
-            </ul>
-        </nav>
-        
+      </ul>
+    </nav>
 
-    </header>
 
-    <!--Main Content-->
-    <main class="background">
-        <section class="register-form">
-            <form method="GET" action="confirmation.html">
+  </header>
 
-                <h2>Let's Experience yoga together!</h2>
+  <!--Main Content-->
+  <main class="background">
+    <section class="register-form">
+      <form method="GET" action="confirmation.html">
 
-                <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" class="input" required> <br>
-                <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" class="input" required> <br>
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" class="input" required><br>
+        <h2>Let's Experience yoga together!</h2>
 
-                <div class="radio-buttons">
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="gender" value="male" required> <br>
-                <label for="female">Female</label>
-                <input type="radio" id="female" name="gender" value="female" required><br>
-                </div>
+        <label for="fname">First Name</label>
+        <input id="fname" name="first_name" type="text" class="input" required> <br>
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" type="text" class="input" required> <br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" class="input" required><br>
 
-                <div id="drop-down">
-                  <label for="category">Choose a Category:</label>
+        <div class="radio-buttons">
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" required> <br>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female" required><br>
+        </div>
 
-                  <select name="category" id="category">
-              
-                      <option value="women">Women yoga</option>
-                      <option value="kids1">Kids yoga(3-6)</option>
-                      <option value="Old">Old Age Yoga</option>
-                      <option value="Kids2">kids yoga(6-14)</option>
-                      <option value="Pregnancy">Pregnancy yoga</option>
-                      <option value="Group">Group yoga</option>
-                  </select> <br>
-                  </div>
+        <div id="drop-down">
+          <label for="category">Choose a Category:</label>
 
-            
+          <select name="category" id="category">
 
-                <input class="join-button" type="submit" value="Let's Explore!">
-   
-            </form>
-        </section>
-    </main>
+            <option value="women">Women yoga</option>
+            <option value="kids1">Kids yoga(3-6)</option>
+            <option value="Old">Old Age Yoga</option>
+            <option value="Kids2">kids yoga(6-14)</option>
+            <option value="Pregnancy">Pregnancy yoga</option>
+            <option value="Group">Group yoga</option>
+          </select> <br>
+        </div>
 
-    <!--Footer-->
-    <footer>
-            <ul id="social-media">
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="visit our facebook page(opens in a new tab)"
-                  ><i class="fa-brands fa-square-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="visit our twitter page(opens in a new tab)"
-                  ><i class="fa-brands fa-square-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://youtube.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="visit our youtube page(opens in a new tab)"
-                  ><i class="fa-brands fa-square-youtube"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="visit our instagram page(opens in a new tab)"
-                  ><i class="fa-brands fa-square-instagram"></i
-                ></a>
-              </li>
-            </ul>
 
-    </footer>
-    <!--font awesome kit-->
 
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+        <input class="join-button" type="submit" value="Let's Explore!">
+
+      </form>
+    </section>
+  </main>
+
+  <!--Footer-->
+  <footer>
+    <ul id="social-media">
+      <li>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+          aria-label="visit our facebook page(opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/" target="_blank" rel="noopener"
+          aria-label="visit our twitter page(opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://youtube.com/" target="_blank" rel="noopener"
+          aria-label="visit our youtube page(opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+          aria-label="visit our instagram page(opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
+      </li>
+    </ul>
+
+  </footer>
+  <!--font awesome kit-->
+
+  <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 
 
 </body>

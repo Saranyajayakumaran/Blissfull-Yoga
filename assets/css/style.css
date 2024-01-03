@@ -447,6 +447,10 @@ footer {
         font-size: 200%;
         font-weight: bold;
     }
+    header a{
+        text-decoration: none;
+    }
+
 
     nav {
         display: block;
