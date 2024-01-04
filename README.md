@@ -107,7 +107,7 @@ Unfixed Bugs
     The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository,navigate to the settings tab.
     - Select the Pages from Code and automation menu.
-    - Then give the correct repository name and default branch to main.
+    - Then give the default branch to main.
     - The page provides the link to complete website.
 - Local
 
