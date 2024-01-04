@@ -31,6 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    text-decoration: none;
 
 }
 
@@ -40,8 +41,12 @@ h1 {
     letter-spacing: 1px;
     color: rgb(71, 29, 5);
     font-weight: 900;
+    text-decoration: none;
 
 
+}
+header a{
+    text-decoration: none;
 }
 
 nav ul li a {
